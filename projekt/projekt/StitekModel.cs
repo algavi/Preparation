@@ -17,6 +17,15 @@ namespace projekt
             klasak,
             zkouska
         }
+        public enum jazyk
+        {
+            CZ,
+            EN
+        }
         public int pocetStudentu { get; set; }
+        public int pocetHodin { get; set; }
+        public int pocetTydnu { get; set; }
+
+        /*Počet bodů za pracovní štítek – int – 12.5 (Toto nebude vlastnost, ale metoda.)*/
     }
 }
