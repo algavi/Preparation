@@ -16,5 +16,73 @@ namespace TrackerUI
         {
             InitializeComponent();
         }
+
+        private void zamestnanci_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private bool ValidateForm()
+        {
+            bool output = true;
+            int placeNumber = 0;
+            bool asd = int.TryParse(inputUvazek.Text, out placeNumber);
+            if(!asd) {
+                /*Error message */
+                output = false;
+            }
+            if (inputJmeno.Text.Length == 0)
+            {
+                output = false;
+            }
+            if (inputPrijmeni.Text.Length == 0)
+            {
+                output = false;
+            }
+
+
+            return output;
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

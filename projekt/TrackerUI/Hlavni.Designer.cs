@@ -1,4 +1,7 @@
 ﻿
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace TrackerUI
 {
     partial class Hlavni
@@ -100,5 +103,6 @@ namespace TrackerUI
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
     }
+    
 }
 

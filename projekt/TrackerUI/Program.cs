@@ -17,7 +17,12 @@ namespace TrackerUI
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hlavni());
+            projekt.GlobalCon.IntCon(true, true);
+
+
+            // Application.Run(new Hlavni());
+
+            Application.Run(new zamestnanci());
         }
     }
 }

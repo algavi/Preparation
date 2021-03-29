@@ -8,6 +8,7 @@ namespace projekt
 {
     public class ZamestnanciModel
     {
+        public int ID { get; set; }
         public string jmeno { get; set; }
         public string prijmeni { get; set; }
         public string celeJmeno { get; set; } /*na toto se podivat jesti to nejde spojit jmeno a prijmeni nez vytvaet nove*/

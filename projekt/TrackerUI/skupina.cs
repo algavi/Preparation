@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class Hlavni : Form
+    public partial class skupina : Form
     {
-        public Hlavni()
+        public skupina()
         {
             InitializeComponent();
         }
@@ -22,24 +22,27 @@ namespace TrackerUI
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            /*
-            skupina fm = new skupina();
-            fm.show();*/
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Hlavni_Load(object sender, EventArgs e)
+        private void skupina_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        internal void show()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
